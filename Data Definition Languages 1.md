@@ -4,7 +4,6 @@ Pada halaman ini berisi informasi mengenai :
 - Mengelola tabel
 - Relationship
 
-
 **Mengelola database :**
 1. Login\
 `mysql -u root -p`
@@ -43,7 +42,7 @@ Contoh :\
 4. Membuat foreign key \
 `FOREIGN KEY ([nama field]) REFERENCES [nama tabel referensi]([nama field pada tabel referensi]);`\
 Contoh :\
-`FOREIGN KEY (NRP) REFERENCES MAHASISWA(NRP);
+`FOREIGN KEY (NRP) REFERENCES MAHASISWA(NRP);`
 
 **Back up & Restore :**
 1. Back up \

@@ -25,7 +25,7 @@ Contoh :\
 `use [nama database];`\
 Contoh :\
 `use BELAJARSQL;`
-3. Membuat tabel\
+3. Membuat tabel
 ```
 CREATE TABLE [nama tabel] (
 [nama kolom1] [tipe data] ([ukuran]) [atribut],
@@ -33,7 +33,7 @@ CREATE TABLE [nama tabel] (
 PRIMARY KEY (nama kolom primary)
 );
 ```
-Contoh :\
+Contoh :
 ```
 CREATE TABLE Mahasiswa (
 NRP varchar (10) not null,

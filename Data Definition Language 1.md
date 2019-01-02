@@ -26,19 +26,23 @@ Contoh :\
 Contoh :\
 `use BELAJARSQL;`
 3. Membuat tabel\
-`CREATE TABLE [nama tabel] (`\
-`[nama kolom1] [tipe data] ([ukuran]) [atribut],`\
-`[nama kolom2] [tipe data] ([ukuran]) [atribut],`\
-`PRIMARY KEY (nama kolom primary)`\
-`);`\
+```
+CREATE TABLE [nama tabel] (
+[nama kolom1] [tipe data] ([ukuran]) [atribut],
+[nama kolom2] [tipe data] ([ukuran]) [atribut],
+PRIMARY KEY (nama kolom primary)
+);
+```
 Contoh :\
-`CREATE TABLE Mahasiswa (`\
-`NRP varchar (10) not null,`\
-`Nama varchar (25) not null,`\
-`JK char (1) not null,`\
-`Email varchar (25) null,`\
-`PRIMARY KEY (NRP)`\
-`);`
+```
+CREATE TABLE Mahasiswa (
+NRP varchar (10) not null,
+Nama varchar (25) not null,
+JK char (1) not null,
+Email varchar (25) null,
+PRIMARY KEY (NRP)
+);
+```
 4. Membuat foreign key \
 `FOREIGN KEY ([nama field]) REFERENCES [nama tabel referensi]([nama field pada tabel referensi]);`\
 Contoh :\

@@ -47,10 +47,10 @@ Contoh :\
 
 **Back up & Restore :**
 1. Back up \
-`Mysqldump –u [username] -p [password] [nama database] > [namafile.sql]`
+`Mysqldump –u [username] -p [password] [nama database] > [namafile.sql]`\
 Contoh :\
 `Mysqldump –u helmy -p BELAJARSQL > BELAJARSQL.sql`
 2. Restore \
-`Mysqldump –u [username] -p [password] [nama database] < [namafile.sql]`
+`Mysqldump –u [username] -p [password] [nama database] < [namafile.sql]`\
 Contoh :\
 `Mysqldump –u helmy -p BELAJARSQL < BELAJARSQL.sql`

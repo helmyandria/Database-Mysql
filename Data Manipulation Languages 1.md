@@ -17,7 +17,7 @@ Contoh 2 :\
 Cara 3 :\
 `insert into [nama tabel] values [isi data];`\
 Contoh 3 :\
-`insert into mhs values 141111056,helmy,L,helmyandria@gmail.com,Jombang;`\
+`insert into mhs values 141111056,helmy,L,helmyandria@gmail.com,Jombang;`
 
 **Melihat data (select)**\
 Cara 1 :\

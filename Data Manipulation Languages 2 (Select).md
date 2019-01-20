@@ -38,8 +38,25 @@ Contoh 1 :\
 Cara 2 :\
 `SELECT [nama field] FROM [nama tabel] WHERE [nama field] NOT LIKE <‘%karakter / value%’>;`\
 Contoh 2 :\
-`SELECT * FROM mhs WHERE nama NOT LIKE '%el%';`\
+`SELECT * FROM mhs WHERE nama NOT LIKE '%el%';`
 
 > Digunakan untuk memfilter record berdasarkan beberapa karakter pada field tertentu atau tidak mengandung karakter tertentu.
 
 **SELECT - IN / NOT IN**\
+Cara 1 :\
+`SELECT [nama field] FROM [nama tabel] WHERE [nama field] IN ([value 1, value 2]);`\
+Contoh 1 :\
+`SELECT * FROM mhs WHERE nrp IN ('111110393','101110249');`\
+Cara 2 :\
+`SELECT [nama field] FROM [nama tabel] WHERE [nama field] NOT IN ([value 1, value 2]);`\
+Contoh 2 :\
+`SELECT * FROM mhs WHERE nrp NOT IN ('111110393','101110249');`
+
+> Memiliki fungsi hampir sama dengan BETWEEN dan NOT BETWEEN, tetapi difungsikan hanya menggunakan 2 parameter.
+
+**SELECT - NULL / NOT NULL**\
+Cara 1 :\
+`SELECT [nama field] FROM [nama tabel] WHERE [nama field] IS NULL;`
+
+
+> Memiliki fungsi menseleksi / menampilkan record yang memiliki field kosong dan sebaliknya.

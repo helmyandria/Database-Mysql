@@ -1,4 +1,4 @@
-#INTRODUCTION
+# Introduction
 Pada halaman ini berisi informasi mengenai :
 - Memasukkan data (insert)
 - Melihat data (select)

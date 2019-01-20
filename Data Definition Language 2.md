@@ -51,7 +51,7 @@ Contoh :\
 `ALTER TABLE [nama tabel] ADD CONSTRAINT [nama foreign key] FOREIGN KEY ([nama field]) REFERENCES [nama tabel acuan]([nama field acuan]);`\
 Contoh :\
 `ALTER TABLE ambil_kuliah ADD CONSTRAINT fk_ambilkodemk FOREIGN KEY (kodemk) REFERENCES matakuliah(kodemk);`\
-Catatan : Sebelum itu `buatlah 2 tabel baru` dengan nama sbb, [membuat tabel baru](https://github.com/helmyandria/Database-Mysql/blob/master/Akses%20MySQL.md):\
+Catatan : Sebelum itu `buatlah 2 tabel baru` dengan nama sbb, [membuat tabel baru](https://github.com/helmyandria/Database-Mysql/blob/master/Data%20Definition%20Language%201.md):\
 Tabel `ambil_kuliah`dengan field `ambilkodemk int(11)`.\
 Tabel `mata_kuliah` dengan field `kodemk int(11)`.
 
